@@ -28,8 +28,9 @@ article{
 }
 
 
-a{
-  text-decoration: none
+a {
+  text-decoration: none;
+  color: lightblue;
 }
 
 header ul{
