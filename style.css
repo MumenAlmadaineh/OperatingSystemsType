@@ -1,0 +1,44 @@
+body {
+  background-color: #ECEFF1;
+}
+
+.mainStyle{
+  color: #1565C0;
+  font-family: "Brush Script MT", cursive;
+}
+
+#secondaryStyle{
+  color: #E65100
+  
+}
+
+
+h1{
+  font-family: "Brush Script MT", cursive;
+  display: inline-block
+}
+
+p {
+  font-weight: bold;
+}
+
+article{
+  font-size: 40px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+a{
+  text-decoration: none
+}
+
+header ul{
+  float: right;
+}
+
+ul li{
+  display: inline-block
+}
+h3{
+  color: #80CBC4
+}
