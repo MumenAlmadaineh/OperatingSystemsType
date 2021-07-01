@@ -77,4 +77,3 @@ document.write("<div>" + "<h3>" + "Evaluation for your operating system is: -" +
 // else {
 //   alert("Sorry, something went wrong, please be sure to follow the capitalization also make sure that you have not clicked a button cancel")
 // }
-
