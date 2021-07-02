@@ -55,8 +55,8 @@ document.write("<div>" + "<h3>" + "Evaluation for your operating system is: -" +
 
 var numberOfImage = prompt(nameOfVisitor + " you're so close to finishing those questions, the last thing how many images of your preferred OS you want to see? You can see 10 images at maximum, please don't enter more than 10");
 
-while (numberOfImage > 10 || numberOfImage < 0) {
-  numberOfImage = prompt("Please" + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 0 to 10")
+while (numberOfImage > 10 || numberOfImage < 1) {
+  numberOfImage = prompt("Please" + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
 }
 
 for(var i = 0; i<numberOfImage; i++) {
