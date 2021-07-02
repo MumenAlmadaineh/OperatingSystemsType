@@ -52,6 +52,33 @@ while (osEvaluation > 10 || osEvaluation < 0) {
 }
 document.write("<div>" + "<h3>" + "Evaluation for your operating system is: -" + osEvaluation + "</h3>" + "</div>")
 
+
+var numberOfImage = prompt(nameOfVisitor + " you're so close to finishing those questions, the last thing how many images of your preferred OS you want to see? You can see 10 images at maximum, please don't enter more than 10");
+
+while (numberOfImage > 10 || numberOfImage < 0) {
+  numberOfImage = prompt("Please" + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 0 to 10")
+}
+
+for(var i = 0; i<numberOfImage; i++) {
+  if(preferredOs == "windows"){
+    document.write("<div>" + "<h3>" + "</h3>" + "<img src='https://i.ytimg.com/vi/Uh9643c2P6k/maxresdefault.jpg' alt='Windows'>" + "</div>")
+  }
+
+  else if(preferredOs == "linux"){
+    document.write("<div>" + "<h3>" + "</h3>" + "<img src='https://htry.hostrycdn.com/blog/wp-content/uploads/2021/01/hostry_linux_additional.jpg' alt='Lunix'>" + "</div>")
+  }
+
+  else if(preferredOs == "macOS"){
+    document.write("<div>" + "<h3>" + "</h3>" + "<img src='https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Big-Sur/macos-big-sur-upgrade-hero.jpg' alt='Mac OS'>" + "</div>")
+  }
+}
+
+// while (numberOfImage > 10 || numberOfImage < 0) {
+//   numberOfImage = prompt("Last thing" + nameOfVisitor + " you're so close to finishing those questions, the last thing how many images of your preferred OS you want to see? You can see 10 images at maximum, please don't enter more than 10 ")
+// }
+
+
+
   // if (preferredOs = "windows") {
   //   alert(nameOfVisitor + " You are chose " + preferredOs + " OS Now in the next window, please write an evaluation for your preferred operating system, where 0 is the lowest evaluation and 10 is the highest evaluation")
   // }
