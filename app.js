@@ -67,8 +67,8 @@ function getImagenumber (number){
   while (number > 10 || number < 1) {
   number = prompt("Please " + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
 
-while (numberOfImage > 10 || numberOfImage < 1) {
-  numberOfImage = prompt("Please " + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
+while (number > 10 || number < 1) {
+  number = prompt("Please " + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
 }
 
 for (var i = 0; i < number; i++) {
