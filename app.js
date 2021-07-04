@@ -59,7 +59,6 @@ getOsEva(osEvaluation);
 
 var numberOfImage = prompt(nameOfVisitor + " you're so close to finishing those questions, the last thing how many images of your preferred OS you want to see? You can see 10 images at maximum, please don't enter more than 10");
 
-<<<<<<< HEAD
 
 getImagenumber (numberOfImage);
 // function with paraparameter and return statement
@@ -67,10 +66,9 @@ function getImagenumber (number){
 
   while (number > 10 || number < 1) {
   number = prompt("Please " + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
-=======
+
 while (numberOfImage > 10 || numberOfImage < 1) {
-  numberOfImage = prompt("Please" + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
->>>>>>> 1c9f325661ad4f5c368ffdccf6a216acce22491a
+  numberOfImage = prompt("Please " + nameOfVisitor + " be sure you are choosing the correct evaluation, please keep in your mind the evaluation is just from 1 to 10")
 }
 
 for (var i = 0; i < number; i++) {
@@ -87,4 +85,5 @@ for (var i = 0; i < number; i++) {
   }
 }
 return number;
+}
 }
