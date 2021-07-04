@@ -5,17 +5,21 @@ body {
 .mainStyle{
   color: #1565C0;
   font-family: "Brush Script MT", cursive;
+    margin-left: 25px;
 }
 
 #secondaryStyle{
-  color: #E65100
-  
-}
+  color: #E65100;
+  padding-top: 1px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  padding-left: 65px;}
 
 
 h1{
   font-family: "Brush Script MT", cursive;
-  display: inline-block
+  display: inline-block;
+  
 }
 
 p {
@@ -31,15 +35,28 @@ article{
 a {
   text-decoration: none;
   color: #E65100;
+  margin: 50px 5px 50px;
 }
 
 header ul{
   float: right;
+    margin-right: 10px;
 }
 
 ul li{
-  display: inline-block
+  display: inline-block;
+  border-style: outset outset outset outset;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-width: medium;
+  border-color: #80CBC4;
+  background-color: #EDF6E5
 }
 h3{
-  color: #80CBC4
+  color: #80CBC4;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+img{
+   padding-left: 15px;
 }
